@@ -1,0 +1,24 @@
+{
+  "name": "tinder-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drzbraz/tinder-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drzbraz/tinder-bot/issues"
+  },
+  "homepage": "https://github.com/drzbraz/tinder-bot#readme",
+  "dependencies": {
+    "cypress": "^7.6.0"
+  }
+}

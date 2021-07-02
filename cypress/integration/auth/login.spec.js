@@ -24,8 +24,8 @@ describe('example to-do app', () => {
     // })
     // cy.wait(2000)
     // cy.get('@Open')
-    // cy.get('@Open').get('[type="text"]').type('drz.braz@gmail.com')
-    // cy.get('@Open').get('[type="password"]').type('Fsolqvpmvcq403118')
+    // cy.get('@Open').get('[type="text"]').type(process.env.USER_LOGIN)
+    // cy.get('@Open').get('[type="password"]').type(process.env.PASSWORD)
     // cy.get('#loginbutton').click()
 
     // cy.window().then((win) => {
@@ -42,7 +42,7 @@ describe('example to-do app', () => {
     let qnt = 900
     while (qnt > 0) {
       cy.get('[fill="url(#svg-fill-linear__like)"]').click()
-      cy.wait(1200)
+      cy.wait(1000)
 
       qnt--
     }
